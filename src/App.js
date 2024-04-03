@@ -3,7 +3,9 @@ import React from "react";
 // import Data from "./Data.js";
 // import datas from "./datas.json";
 // import Forms from "./Forms.js"
-import Form2 from "./Form2.js"
+// import Form2 from "./Form2.js"
+// import UseEffect from "./UseEffect.js"
+import Fetch from "./Fetch.js"
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       {/* <Data /> */}
       {/* <datas /> */}
       {/* <Forms /> */}
-      <Form2 />
+      {/* <Form2 /> */}
+      {/* <UseEffect /> */}
+      <Fetch />
     </div>
   );
 }

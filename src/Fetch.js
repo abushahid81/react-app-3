@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { unstable_renderSubtreeIntoContainer } from 'react-dom';
+
 
 const Fetch = () => {
 

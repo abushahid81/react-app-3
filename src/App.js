@@ -5,7 +5,8 @@ import React from "react";
 // import Forms from "./Forms.js"
 // import Form2 from "./Form2.js"
 // import UseEffect from "./UseEffect.js"
-import Fetch from "./Fetch.js"
+// import Fetch from "./Fetch.js"
+import Multipalreturn from "./Multipalreturn.js"
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Forms /> */}
       {/* <Form2 /> */}
       {/* <UseEffect /> */}
-      <Fetch />
+      {/* <Fetch /> */}
+      <Multipalreturn />
     </div>
   );
 }

@@ -19,8 +19,12 @@ const Forms = () => {
         console.log(abu.target.value);
         setPassword(abu.target.value);
     }
+
+    const handleSubmit = (abu) =>{
+        abu.preventDefault();
+    }
   return (
-   <form>
+   <form onSubmit={handleSubmit}>
     <label >
         Name: <input type="text" value={name} onChange={handleName}/>
     </label>
@@ -28,9 +32,9 @@ const Forms = () => {
         Email: <input type="text" value={email} onChange={handleEmail}/>
     </label>
     <label >
-        Password: <input type="number" value={password} onChange={handlePassword}/>
+        Password: <input type="password" value={password} onChange={handlePassword}/>
     </label>
-   
+   <button type='submit'>Submit</button>
    </form>
   )
 }

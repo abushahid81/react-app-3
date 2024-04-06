@@ -3,7 +3,7 @@ import Home from "./Component/Home.jsx";
 import About from "./Component/About.jsx";
 import Blog from "./Component/Blog.jsx";
 import Contact from "./Component/Contact.jsx";
-import Navbar from "./NavBar/Navbar.jsx";
+import Navbar from "./Navbar.jsx";
 import { BrowserRouter, Routes , Route } from 'react-router-dom'
 
 
@@ -13,10 +13,11 @@ const RouterExample = () => {
    <BrowserRouter>
    <Navbar/>
    <Routes>
-        <Route path="/" element={<div>Home</div>}></Route>
-        <Route path="/" element={<div>About</div>}></Route>
-        <Route path="/" element={<div>Contact</div>}></Route>
-        <Route path="/" element={<div>Blog</div>}></Route>
+        <Route path="/Logo" element={<div>Logo</div>}></Route>
+        <Route path="/About" element={<About/>}></Route>
+        <Route path="/Contact" element={<Contact/>}></Route>
+        <Route path="/Blog" element={<Blog/>}></Route>
+        <Route path="/Log  o" element={<div>Login</div>}></Route>
    </Routes>
    </BrowserRouter>
   )

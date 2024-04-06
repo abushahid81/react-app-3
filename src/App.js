@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Counter from "./component/Counter.js";
 // import Data from "./Data.js";
 // import datas from "./datas.json";
@@ -14,6 +15,7 @@ import React from "react";
 // import  UseReducer2  from "./UserReducer2.js";
 import  RouterExample  from "./RouterExample.jsx";
 // import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 
 
 function App() {
